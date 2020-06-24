@@ -1,0 +1,118 @@
+{
+    "leaderboard" : [{
+    "name":"Olawale Juwon",
+    "Username": "@OlawaleJuwonM",
+    "Email": "olawalejuwon@gmail.com",
+    "Point": "20"
+},
+    {
+        "name":"Oluwadurotimi Okediji",
+        "Username": "@Okediji",
+        "Email": "ola@gmail.com",
+        "Point": "19"
+    },
+    {
+        "name":"Olabode Miracle",
+        "Username": "@miracle",
+        "Email": "olabode.mirace@gmail.com",
+        "Point": "18"
+    },
+    {
+        "name":"Ajao Joshua",
+        "Username": "@Ajao",
+        "Email": "ajaojoshua123@gmail.com",
+        "Point": "17"
+    },
+    {
+        "name":"Joy Adekambi",
+        "Username": "@Joy",
+        "Email": "joyadekambi@gmail.com",
+        "Point": "16"
+    },
+    {
+        "name":"Ige Oluwabunmi",
+        "Username": "@Bunmi",
+        "Email": "ige@gmail.com",
+        "Point": "15"
+    },
+    {
+        "name":"Olapade Temitope",
+        "Username": "@Temitope",
+        "Email": "tope@gmail.com",
+        "Point": "14"
+    },
+    {
+        "name":"Ige Oluwabunmi",
+        "Username": "@Bunmi",
+        "Email": "ige@gmail.com",
+        "Point": "13"
+    },
+    {
+        "name":"Olawale Juwon",
+        "Username": "@OlawaleJuwonM",
+        "Email": "olawalejuwon@gmail.com",
+        "Point": "12"
+    },
+    {
+        "name":"Oluwadurotimi Okediji",
+        "Username": "@Okediji",
+        "Email": "ola@gmail.com",
+        "Point": "11"
+    },
+    {
+        "name":"Olabode Miracle",
+        "Username": "@miracle",
+        "Email": "olabode.mirace@gmail.com",
+        "Point": "10"
+    },
+    {
+        "name":"Ajao Joshua",
+        "Username": "@Ajao",
+        "Email": "ajaojoshua123@gmail.com",
+        "Point": "9"
+    },
+    {
+        "name":"Joy Adekambi",
+        "Username": "@Joy",
+        "Email": "joyadekambi@gmail.com",
+        "Point": "8"
+    },
+    {
+        "name":"Ige Oluwabunmi",
+        "Username": "@Bunmi",
+        "Email": "ige@gmail.com",
+        "Point": "7"
+    },
+    {
+        "name":"Olapade Temitope",
+        "Username": "@Temitope",
+        "Email": "tope@gmail.com",
+        "Point": "6"
+    },
+    {
+        "name":"Ige Oluwabunmi",
+        "Username": "@Bunmi",
+        "Email": "ige@gmail.com",
+        "Point": "5"
+    },
+    {
+        "name":"Ige Oluwabunmi",
+        "Username": "@Bunmi",
+        "Email": "ige@gmail.com",
+        "Point": "4"
+    },
+    {
+        "name":"Olapade Temitope",
+        "Username": "@Temitope",
+        "Email": "tope@gmail.com",
+        "Point": "3"
+    },
+    {
+        "name":"Ige Oluwabunmi",
+        "Username": "@Bunmi",
+        "Email": "ige@gmail.com",
+        "Point": "2"
+    }
+
+]
+}

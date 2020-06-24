@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/leaderboard_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_margin="16dp"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:textSize="14sp"
+        android:textColor="@color/darkBlack"
+        />
+
+    <com.google.android.material.card.MaterialCardView
+        card_view:cardCornerRadius="30dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="16dp"
+        app:cardElevation="0dp"
+        app:strokeColor="@color/darkGrey"
+        app:strokeWidth="1dp"
+        android:layout_gravity="center_vertical"
+        app:cardBackgroundColor="?attr/colorPrimaryDark"
+        >
+
+        <ImageView
+            android:id="@+id/leaderboard_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_woman4"
+            android:layout_gravity="center"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/leaderboard_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caleb Ali"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/leaderboard_slack_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kally"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:layout_marginBottom="4dp"
+            android:textSize="14sp"
+            android:textColor="@color/darkBlack"
+            />
+
+        <TextView
+            android:id="@+id/leaderboard_slack_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50 points"
+            android:textAppearance="?attr/textAppearanceBody2"
+            android:textSize="14sp"
+            android:textColor="@color/darkBlack"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/inset_divider" />
+
+</LinearLayout>
