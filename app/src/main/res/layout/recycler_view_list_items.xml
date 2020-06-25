@@ -20,7 +20,7 @@
         android:layout_margin="16dp"
         android:textAppearance="?attr/textAppearanceHeadline6"
         android:textSize="14sp"
-        android:textColor="@color/darkBlack"
+        android:textColor="@color/customTextColor"
         />
 
     <com.google.android.material.card.MaterialCardView
@@ -29,7 +29,7 @@
         android:layout_height="60dp"
         android:layout_margin="16dp"
         app:cardElevation="0dp"
-        app:strokeColor="@color/darkGrey"
+        app:strokeColor="@color/dividerColor"
         app:strokeWidth="1dp"
         android:layout_gravity="center_vertical"
         app:cardBackgroundColor="?attr/colorPrimaryDark"
@@ -71,7 +71,7 @@
             android:textAppearance="?attr/textAppearanceBody2"
             android:layout_marginBottom="4dp"
             android:textSize="14sp"
-            android:textColor="@color/darkBlack"
+            android:textColor="@color/customTextColor"
             />
 
         <TextView
@@ -81,7 +81,7 @@
             android:text="50 points"
             android:textAppearance="?attr/textAppearanceBody2"
             android:textSize="14sp"
-            android:textColor="@color/darkBlack"
+            android:textColor="@color/customTextColor"
             />
 
     </LinearLayout>

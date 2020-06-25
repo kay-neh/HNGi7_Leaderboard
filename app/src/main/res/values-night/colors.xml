@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/hngBlue</color>
+    <color name="colorPrimaryDark">#26000000</color>
+    <color name="colorAccent">#0277bd</color>
+
+    <color name="dividerColor">#80FFFFFF</color>
+    <color name="customTextColor">#80FFFFFF</color>
+    <color name="hngBlue">#00AEFF</color>
+
+</resources>

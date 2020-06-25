@@ -1,6 +1,7 @@
 package com.example.hngleaderboard;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -27,6 +28,8 @@ import java.util.List;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
+
+    private boolean darkMode = false;
 
     Toolbar mainToolbar;
     List <Users> usersList;
@@ -119,16 +122,32 @@ public class MainActivity extends AppCompatActivity {
         mainToolbar.setOnMenuItemClickListener(new Toolbar.OnMenuItemClickListener() {
             @Override
             public boolean onMenuItemClick(MenuItem item) {
-                if(item.getItemId() == R.id.share){
-                    Intent sendIntent = new Intent();
-                    sendIntent.setAction(Intent.ACTION_SEND);
-                    sendIntent.putExtra(Intent.EXTRA_TEXT, composeLeaderboardmessage(usersList));
-                    sendIntent.setType("text/plain");
+                switch (item.getItemId()){
+                    case R.id.share:
+                        Intent sendIntent = new Intent();
+                        sendIntent.setAction(Intent.ACTION_SEND);
+                        sendIntent.putExtra(Intent.EXTRA_TEXT, composeLeaderboardmessage(usersList));
+                        sendIntent.setType("text/plain");
 
-                    Intent shareIntent = Intent.createChooser(sendIntent, null);
-                    startActivity(shareIntent);
+                        Intent shareIntent = Intent.createChooser(sendIntent, null);
+                        startActivity(shareIntent);
+                        return true;
+
+                    case R.id.enable_dark_mode:
+                        if(item.isChecked()){
+                            // If item already checked then unchecked it
+                            item.setChecked(false);
+                            darkMode = false;
+                        }else {
+                            // If item is unchecked then checked it
+                            item.setChecked(true);
+                            darkMode = true;
+                        }
+                        // Update night mode state
+                        setNightMode();
+                        return true;
                 }
-                return false;
+                        return false;
             }
         });
 
@@ -167,6 +186,14 @@ public class MainActivity extends AppCompatActivity {
         }
         message = "HNGi7 LeaderBoard \n" + body;
         return message;
+    }
+
+    public void setNightMode(){
+        if (darkMode) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+        }
     }
 
 }

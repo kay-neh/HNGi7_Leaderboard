@@ -7,4 +7,12 @@
         android:title="Share"
         android:icon="@drawable/ic_share"
         app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/enable_dark_mode"
+        android:title="Night Mode"
+        android:checkable="true"
+        android:icon="@drawable/ic_nightmode"
+        app:showAsAction="never"/>
+
 </menu>

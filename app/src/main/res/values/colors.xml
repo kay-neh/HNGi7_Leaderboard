@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FFFFFF</color>
-    <color name="colorPrimaryDark">@color/demoWhite</color>
+    <color name="colorPrimary">@color/hngBlue</color>
+    <color name="colorPrimaryDark">#FAFAFA</color>
     <color name="colorAccent">#0277bd</color>
-    <color name="darkGrey">#B4BAC0</color>
 
-    <color name="darkBlack">#80000000</color>
+    <color name="dividerColor">#B4BAC0</color>
+    <color name="customTextColor">#80000000</color>
     <color name="hngBlue">#00AEFF</color>
 
     <color name="demoWhite">#FAFAFA</color>
